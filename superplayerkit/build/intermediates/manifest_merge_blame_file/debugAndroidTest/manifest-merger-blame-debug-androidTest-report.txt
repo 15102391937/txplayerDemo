@@ -1,0 +1,62 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.tencent.liteav.demo.play.test" >
+4
+5    <uses-sdk
+5-->C:\cgy\AsProject\txplayer_749211\txplayerDemo\superplayerkit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1935271946212815832.xml:5:5-74
+6        android:minSdkVersion="16"
+6-->C:\cgy\AsProject\txplayer_749211\txplayerDemo\superplayerkit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1935271946212815832.xml:5:15-41
+7        android:targetSdkVersion="26" />
+7-->C:\cgy\AsProject\txplayer_749211\txplayerDemo\superplayerkit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1935271946212815832.xml:5:42-71
+8
+9    <instrumentation
+9-->C:\cgy\AsProject\txplayer_749211\txplayerDemo\superplayerkit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1935271946212815832.xml:11:5-15:83
+10        android:name="android.support.test.runner.AndroidJUnitRunner"
+10-->C:\cgy\AsProject\txplayer_749211\txplayerDemo\superplayerkit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1935271946212815832.xml:11:22-83
+11        android:functionalTest="false"
+11-->C:\cgy\AsProject\txplayer_749211\txplayerDemo\superplayerkit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1935271946212815832.xml:14:22-52
+12        android:handleProfiling="false"
+12-->C:\cgy\AsProject\txplayer_749211\txplayerDemo\superplayerkit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1935271946212815832.xml:13:22-53
+13        android:label="Tests for com.tencent.liteav.demo.play.test"
+13-->C:\cgy\AsProject\txplayer_749211\txplayerDemo\superplayerkit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1935271946212815832.xml:15:22-81
+14        android:targetPackage="com.tencent.liteav.demo.play.test" />
+14-->C:\cgy\AsProject\txplayer_749211\txplayerDemo\superplayerkit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1935271946212815832.xml:12:22-79
+15    <!-- sdk 网络访问 -->
+16    <uses-permission android:name="android.permission.INTERNET" /> <!-- sdk 网络状态获取 -->
+16-->[com.tencent.liteav:LiteAVSDK_Player:7.4.9211] C:\Users\10240\.gradle\caches\transforms-2\files-2.1\68ffe3c1ac5defc17a87b32bfcefb064\LiteAVSDK_Player-7.4.9211\AndroidManifest.xml:12:5-67
+16-->[com.tencent.liteav:LiteAVSDK_Player:7.4.9211] C:\Users\10240\.gradle\caches\transforms-2\files-2.1\68ffe3c1ac5defc17a87b32bfcefb064\LiteAVSDK_Player-7.4.9211\AndroidManifest.xml:12:22-64
+17    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" /> <!-- sdk wifi状态获取 -->
+17-->[com.tencent.liteav:LiteAVSDK_Player:7.4.9211] C:\Users\10240\.gradle\caches\transforms-2\files-2.1\68ffe3c1ac5defc17a87b32bfcefb064\LiteAVSDK_Player-7.4.9211\AndroidManifest.xml:14:5-79
+17-->[com.tencent.liteav:LiteAVSDK_Player:7.4.9211] C:\Users\10240\.gradle\caches\transforms-2\files-2.1\68ffe3c1ac5defc17a87b32bfcefb064\LiteAVSDK_Player-7.4.9211\AndroidManifest.xml:14:22-76
+18    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" /> <!-- sdk log及配置文件 -->
+18-->[com.tencent.liteav:LiteAVSDK_Player:7.4.9211] C:\Users\10240\.gradle\caches\transforms-2\files-2.1\68ffe3c1ac5defc17a87b32bfcefb064\LiteAVSDK_Player-7.4.9211\AndroidManifest.xml:16:5-76
+18-->[com.tencent.liteav:LiteAVSDK_Player:7.4.9211] C:\Users\10240\.gradle\caches\transforms-2\files-2.1\68ffe3c1ac5defc17a87b32bfcefb064\LiteAVSDK_Player-7.4.9211\AndroidManifest.xml:16:22-73
+19    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+19-->[com.tencent.liteav:LiteAVSDK_Player:7.4.9211] C:\Users\10240\.gradle\caches\transforms-2\files-2.1\68ffe3c1ac5defc17a87b32bfcefb064\LiteAVSDK_Player-7.4.9211\AndroidManifest.xml:18:5-81
+19-->[com.tencent.liteav:LiteAVSDK_Player:7.4.9211] C:\Users\10240\.gradle\caches\transforms-2\files-2.1\68ffe3c1ac5defc17a87b32bfcefb064\LiteAVSDK_Player-7.4.9211\AndroidManifest.xml:18:22-78
+20    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- 音频改变音量类型 -->
+20-->[com.tencent.liteav:LiteAVSDK_Player:7.4.9211] C:\Users\10240\.gradle\caches\transforms-2\files-2.1\68ffe3c1ac5defc17a87b32bfcefb064\LiteAVSDK_Player-7.4.9211\AndroidManifest.xml:19:5-80
+20-->[com.tencent.liteav:LiteAVSDK_Player:7.4.9211] C:\Users\10240\.gradle\caches\transforms-2\files-2.1\68ffe3c1ac5defc17a87b32bfcefb064\LiteAVSDK_Player-7.4.9211\AndroidManifest.xml:19:22-77
+21    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS" /> <!-- 音频获取蓝牙耳机状态 -->
+21-->[com.tencent.liteav:LiteAVSDK_Player:7.4.9211] C:\Users\10240\.gradle\caches\transforms-2\files-2.1\68ffe3c1ac5defc17a87b32bfcefb064\LiteAVSDK_Player-7.4.9211\AndroidManifest.xml:21:5-80
+21-->[com.tencent.liteav:LiteAVSDK_Player:7.4.9211] C:\Users\10240\.gradle\caches\transforms-2\files-2.1\68ffe3c1ac5defc17a87b32bfcefb064\LiteAVSDK_Player-7.4.9211\AndroidManifest.xml:21:22-77
+22    <uses-permission android:name="android.permission.BLUETOOTH" />
+22-->[com.tencent.liteav:LiteAVSDK_Player:7.4.9211] C:\Users\10240\.gradle\caches\transforms-2\files-2.1\68ffe3c1ac5defc17a87b32bfcefb064\LiteAVSDK_Player-7.4.9211\AndroidManifest.xml:23:5-68
+22-->[com.tencent.liteav:LiteAVSDK_Player:7.4.9211] C:\Users\10240\.gradle\caches\transforms-2\files-2.1\68ffe3c1ac5defc17a87b32bfcefb064\LiteAVSDK_Player-7.4.9211\AndroidManifest.xml:23:22-65
+23
+24    <application
+24-->C:\cgy\AsProject\txplayer_749211\txplayerDemo\superplayerkit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1935271946212815832.xml:7:5-9:19
+25        android:debuggable="true"
+25-->C:\cgy\AsProject\txplayer_749211\txplayerDemo\superplayerkit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1935271946212815832.xml:7:18-43
+26        android:label="@string/app_name"
+26-->[com.tencent.liteav:LiteAVSDK_Player:7.4.9211] C:\Users\10240\.gradle\caches\transforms-2\files-2.1\68ffe3c1ac5defc17a87b32bfcefb064\LiteAVSDK_Player-7.4.9211\AndroidManifest.xml:26:9-41
+27        android:supportsRtl="true"
+27-->[com.tencent.liteav:LiteAVSDK_Player:7.4.9211] C:\Users\10240\.gradle\caches\transforms-2\files-2.1\68ffe3c1ac5defc17a87b32bfcefb064\LiteAVSDK_Player-7.4.9211\AndroidManifest.xml:27:9-35
+28        android:usesCleartextTraffic="true" >
+28-->[com.tencent.liteav:LiteAVSDK_Player:7.4.9211] C:\Users\10240\.gradle\caches\transforms-2\files-2.1\68ffe3c1ac5defc17a87b32bfcefb064\LiteAVSDK_Player-7.4.9211\AndroidManifest.xml:28:9-44
+29        <uses-library android:name="android.test.runner" />
+29-->C:\cgy\AsProject\txplayer_749211\txplayerDemo\superplayerkit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1935271946212815832.xml:8:9-60
+29-->C:\cgy\AsProject\txplayer_749211\txplayerDemo\superplayerkit\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1935271946212815832.xml:8:23-57
+30    </application>
+31
+32</manifest>
